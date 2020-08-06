@@ -9,7 +9,7 @@
 import { useMemo } from 'react'
 import { useValueFormatter } from '@nivo/core'
 import { useOrdinalColorScale } from '@nivo/colors'
-import { computeXYScalesForSeries } from '@nivo/scales'
+import { computeXYScalesForSeries } from '@osqu/nivo-scales'
 import { useAnnotations } from '@nivo/annotations'
 import { computePoints, getNodeSizeGenerator } from './compute'
 

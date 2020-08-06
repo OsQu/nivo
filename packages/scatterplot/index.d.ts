@@ -18,7 +18,7 @@ import {
 import { OrdinalColorsInstruction } from '@nivo/colors'
 import { LegendProps } from '@nivo/legends'
 import { AxisProps, GridValues } from '@nivo/axes'
-import { Scale } from '@nivo/scales'
+import { Scale } from '@osqu/nivo-scales'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
