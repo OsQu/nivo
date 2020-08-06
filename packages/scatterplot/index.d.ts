@@ -22,7 +22,7 @@ import { Scale } from '@nivo/scales'
 
 type Omit<T, K extends keyof T> = Pick<T, Exclude<keyof T, K>>
 
-declare module '@nivo/scatterplot' {
+declare module '@osqu/nivo-scatterplot' {
     export type Value = number | string | Date
     export type ValueFormatter = (value: Value) => string | number
 
